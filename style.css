@@ -1,0 +1,86 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e2f; /* خلفية داكنة */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* الحاوية الرئيسية */
+  .main-container {
+    background: linear-gradient(145deg, #2a2a40, #232336); /* تأثير لوني */
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* العناوين */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffd700; /* لون ذهبي */
+  }
+  
+  /* المدخلات */
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #2f2f42;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  input::placeholder {
+    color: #aaa; /* لون نص التلميحات */
+  }
+  
+  input:focus {
+    outline: 2px solid #ffd700; /* تحديد عند التركيز */
+  }
+  
+  /* الأزرار */
+  button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffd700;
+    color: #1e1e2f;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #e6c300; /* لون أفتح عند التمرير */
+    transform: scale(1.05); /* تكبير بسيط */
+  }
+  
+  /* إضافة رسائل توضيحية */
+  .form-container p {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 10px;
+  }
+  
+  /* التأثيرات البصرية */
+  .main-container:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+  }
